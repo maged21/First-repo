@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Nunito:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    body {
+        @apply text-whiteColor bg-primaryColor tracking-wider font-dmsans dark:bg-darkColor;
+    }
+
+    section {
+        @apply pt-16 p-4 md:pt-20;
+    }
+}
+
+@layer components{
+    .btn {
+        @apply inline-block text-sm py-3 px-8 capitalize text-center rounded-md ease-linear cursor-pointer duration-200;
+    }
+    .btn-primary {
+        @apply text-blackColor bg-secondaryColor hover:opacity-75;
+    }
+}
+
+@layer utilities{
+    .home-title,
+    .card-title,
+    .section-title {
+        @apply text-4xl font-oswald font-bold uppercase lg:text-6xl;
+    }
+
+    .section-title {
+        @apply text-3xl;
+    }
+
+    .card-title {
+        @apply text-xl;
+    }
+    
+    .separtor{
+        @apply w-28 h-[2px] bg-secondaryColor my-5;
+    }
+
+    .paragraph {
+        @apply text-paragraphColor text-xs leading-5;
+    }
+    
+}
+
+.promo-card:hover img {
+    @apply animate-movingY;
+}
+
+.tabs-wrap ul li:hover,
+.tabs-wrap ul li.active {
+    @apply bg-secondaryColor text-black;
+}
+
+/* .swiper-pagination-bullets-active {
+    color: red !important;
+    background-color: red !important;
+} */
