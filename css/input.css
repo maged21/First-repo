@@ -48,7 +48,6 @@
     .paragraph {
         @apply text-paragraphColor text-xs leading-5;
     }
-    
 }
 
 .promo-card:hover img {

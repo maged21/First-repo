@@ -21,6 +21,9 @@ module.exports = {
         darkColor: '#000',
         darkColorLight: "#171717",
       },
+      backgroundImage: {
+        'menu-page': "url('/img/menu-page.png')"
+      },
       keyframes: {
         move: {
           "50%": {transform: 'translateY(-1rem)'}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    <!--~~~~~~~~~~~~~~~ Font Awesome ~~~~~~~~~~~~~~~-->
+    <script src="https://kit.fontawesome.com/a72b18742e.js" crossorigin="anonymous"></script>
+
+    <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+    <link rel="stylesheet" href="/css/remixicon.css">
+    <link rel="stylesheet" href="/css/remixicon.woff">
+    <link rel="stylesheet" href="/css/remixicon.woff2">
+    <link rel="stylesheet" href="/css/remixicon.ttf">
+
+    <!--  Swiper's CSS -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <!--~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~-->
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>Burger</title>
+  </head>
+  <body>
+    <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
+    <header class="bg-primaryColor dark:bg-darkColor fixed top-0 left-0 w-full z-50" id="header">
+      <nav class="container relative h-14 flex justify-between items-center">
+        <div>
+            <a href="#" class="text-2xl uppercase font-oswald">
+                <img src="/img/logo.png" alt="logo" class="w-12">
+            </a>
+        </div>
+
+        <div class="hidden absolute top-0 left-0 py-14 w-full border border-secondaryColor bg-primaryColor dark:bg-darkColor  md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
+            <ul class="flex flex-col text-center gap-5 md:flex-row">
+                <li>
+                    <a href="/index.html" class="nav-link hover:text-secondaryColor ease-in duration-200">Home</a>
+                </li>
+                <li>
+                    <a href="/pages/about.html" class="nav-link hover:text-secondaryColor ease-in duration-200">About</a>
+                </li>
+                <li>
+                    <a href="/pages/menu.html" class="nav-link hover:text-secondaryColor ease-in duration-200">Menu</a>
+                </li>
+            </ul>
+
+            <div class="absolute top-3 right-4 text-2xl cursor-pointer md:hidden" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-5">
+            <i class="ri-moon-line cursor-pointer ml-4 text-xl" id="theme-toggle"></i>
+
+            <div class="md:hidden" id="hamburger">
+                <i class="ri-menu-2-line  cursor-pointer text-xl"></i>
+            </div>
+        </div>
+
+      </nav>
+    </header>
+
+    <!--~~~~~~~~~~~~~~~ about ~~~~~~~~~~~~~~~-->
+    <main>
+        <section id="about">
+            <div class="container flex items-center gap-8 flex-col md:flex-row">
+                <div>
+                    <img src="/img/about-page.png" class="hidden md:block md:w-[20rem]">
+                </div>
+                <div class="flex-1">
+                    <h2 class="section-title">find food and drinks, all-in-one place for your best taste.</h2>
+                    <div class="separtor"></div>
+                    <p class="paragraph">At our restaurant, we take pride in serving the most delectable burgers and fries you'll ever taste, all while maintaining a commitment to your health and well-being. Our mouthwatering burgers are made with lean, locally-sourced beef, ensuring a juicy and flavorful bite every time. We use fresh, hand-cut potatoes to create the crispiest and most satisfying fries, cooked to perfection with heart-healthy oils. For those looking for a lighter option, we offer a range of nutritious salad choices and lean protein toppings to customize your meal. With our dedication to both taste and health, dining at our restaurant is a guilt-free indulgence you won't want to miss.</p>
+                    <br>
+                    <p class="paragraph">Quench your thirst with our delightful selection of beverages, featuring an array of creamy milkshakes, bubbly sodas, and invigorating fresh drinks. Our milkshakes are a fan favorite, blending velvety ice cream with your choice of flavors, making for a sweet and satisfying treat. For those who prefer a fizzier option, our soda fountain boasts a medley of classic and inventive flavors that are sure to tantalize your taste buds. If you're looking for a healthier alternative, our freshly prepared fruit juices and smoothies are brimming with vitamins and antioxidants to rejuvenate your senses. Our beverage menu adds the perfect finishing touch to your dining experience, ensuring you leave feeling refreshed and satisfied.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="border border-secondaryColor"></div>
+    <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="flex flex-col gap-5 md:flex-row py-5">
+                    <div class="space-y-3 flex-1">
+                        <a href="#" class="text-2xl uppercase font-oswald">
+                            <img src="/img/logo.png" alt="logo" class="w-20">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, quasi?</p>
+                    </div>
+                    <div class="flex-1 space-y-4">
+                        <h3 class="text-2xl uppercase font-oswald">support</h3>
+                        <p>FAQ's</p>
+                        <p>Privacy Policy</p>
+                        <p>Term & Condition</p>
+                        <p>Contact</p>
+                    </div>
+                    <div class="flex flex-1 flex-col gap-10">
+                        <div class="space-y-4">
+                            <h3 class="text-2xl uppercase font-oswald">phone</h3>
+                            <p><i class="fa-solid fa-phone text-secondaryColor mr-2"></i>+ 0111 374 3883</p>
+                        </div>
+
+                        <div class="space-y-4">
+                            <h3 class="text-2xl uppercase font-oswald">email</h3>
+                            <p><i class="fa-solid fa-envelope text-secondaryColor mr-2"></i>+ 0111 374 3883</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-1 flex-col gap-10">
+                        <div class="space-y-4">
+                            <h3 class="text-2xl uppercase font-oswald">address</h3>
+                            <p><i class="fa-solid fa-location-dot text-secondaryColor mr-2"></i>Find us in october</p>
+                        </div>
+
+                        <div class="space-y-4">
+                            <h3 class="text-2xl uppercase font-oswald">follow us</h3>
+                            <div class="flex gap-8">
+                                <i class="text-secondaryColor fa-brands fa-facebook-f"></i>
+                                <i class="text-secondaryColor fa-brands fa-twitter"></i>
+                                <i class="text-secondaryColor fa-brands fa-square-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center border-t border-primaryColorLight dark:border-darkColorLight  py-5 md:flex-row md:justify-between">
+                    <p class="paragraph capitalize">megz smash burger</p>
+                    <p class="paragraph">Copyright 	&copy; 2023. All rights reserved</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+  <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->   
+  <a href="#" class="fixed right-4 -bottom-1/2 bg-secondaryColor shadow-sm inline-block px-4 py-2 rounded-full text-blackColor z-50 hover:-translate-y-1 ease-in duration-200" id="scroll-up">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+  
+  <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
+    <script src="/js/swiper-bundle.min.js"></script>
+  <!--~~~~~~~~~~~~~~~ Scroll Reveal ~~~~~~~~~~~~~~~-->
+
+  <!--~~~~~~~~~~~~~~~ Main.js ~~~~~~~~~~~~~~~-->
+  <script src="/js/main.js"></script>
+  </body>
+</html>

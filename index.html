@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
     <!--~~~~~~~~~~~~~~~ Font Awesome ~~~~~~~~~~~~~~~-->
     <script src="https://kit.fontawesome.com/a72b18742e.js" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
       <nav class="container relative h-14 flex justify-between items-center">
         <div>
             <a href="#" class="text-2xl uppercase font-oswald">
-                Bur<span class="text-secondaryColor ">ger</span>
+                <img src="/img/logo.png" alt="logo" class="w-12">
             </a>
         </div>
 
@@ -40,16 +40,10 @@
                     <a href="#home" class="nav-link hover:text-secondaryColor ease-in duration-200">Home</a>
                 </li>
                 <li>
-                    <a href="#about" class="nav-link hover:text-secondaryColor ease-in duration-200">About</a>
+                    <a href="/pages/about.html" class="nav-link hover:text-secondaryColor ease-in duration-200">About</a>
                 </li>
                 <li>
-                    <a href="#menu" class="nav-link hover:text-secondaryColor ease-in duration-200">Menu</a>
-                </li>
-                <li>
-                    <a href="#review" class="nav-link hover:text-secondaryColor ease-in duration-200">Review</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link hover:text-secondaryColor ease-in duration-200">Contact</a>
+                    <a href="/pages/menu.html" class="nav-link hover:text-secondaryColor ease-in duration-200">Menu</a>
                 </li>
             </ul>
 
@@ -224,7 +218,7 @@
                 <!-- burgers -->
                 <ul class="flex flex-col gap-5 md:flex-row md:flex-wrap lg:flex-nowrap lg:gap-10 mb-5">
                     <li class="item-wrap burger">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/burger-1.png" alt="burger1" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -238,7 +232,7 @@
                         </div>
                     </li>
                     <li class="item-wrap burger">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/burger-2.png" alt="burger1" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -252,7 +246,7 @@
                         </div>
                     </li>
                     <li class="item-wrap burger">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/burger-3.png" alt="burger1" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -265,9 +259,39 @@
                             <p class="text-secondaryColor">$42.00</p>
                         </div>
                     </li>
+                </ul>
+                <ul class="flex flex-col gap-5 md:flex-row md:flex-wrap lg:flex-nowrap lg:gap-10 mb-5">
                     <li class="item-wrap burger">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/burger-4.png" alt="burger1" class="w-40 hover:scale-110 ease-linear duration-200">
+                        </div>
+
+                        <div class="pt-5">
+                            <div class="mb-2">
+                                <h4 class="card-title">regular beef burger</h4>
+                                <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            </div>
+
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="item-wrap burger">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
+                            <img src="./img/burger-5.png" alt="burger1" class="w-40 hover:scale-110 ease-linear duration-200">
+                        </div>
+
+                        <div class="pt-5">
+                            <div class="mb-2">
+                                <h4 class="card-title">regular beef burger</h4>
+                                <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            </div>
+
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="item-wrap burger">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
+                            <img src="./img/burger-6.png" alt="burger1" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
                         <div class="pt-5">
@@ -284,7 +308,7 @@
                 <!-- snacks -->
                 <ul class="flex flex-col gap-5 md:flex-row md:flex-wrap lg:flex-nowrap lg:gap-10 mb-5">
                     <li class="item-wrap snack">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/snack-1.png" alt="snack" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -298,7 +322,7 @@
                         </div>
                     </li>
                     <li class="item-wrap snack">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/snack-2.png" alt="snack" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -312,7 +336,7 @@
                         </div>
                     </li>
                     <li class="item-wrap snack">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/snack-3.png" alt="snack" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -325,9 +349,40 @@
                             <p class="text-secondaryColor">$42.00</p>
                         </div>
                     </li>
+                </ul>
+                <ul class="flex flex-col gap-5 md:flex-row md:flex-wrap lg:flex-nowrap lg:gap-10 mb-5">
+
                     <li class="item-wrap snack">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/snack-4.png" alt="snack" class="w-40 hover:scale-110 ease-linear duration-200">
+                        </div>
+
+                        <div class="pt-5">
+                            <div class="mb-2">
+                                <h4 class="card-title">french fries</h4>
+                                <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            </div>
+
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="item-wrap snack">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
+                            <img src="./img/snack-5.png" alt="snack" class="w-40 hover:scale-110 ease-linear duration-200">
+                        </div>
+
+                        <div class="pt-5">
+                            <div class="mb-2">
+                                <h4 class="card-title">french fries</h4>
+                                <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            </div>
+
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="item-wrap snack">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
+                            <img src="./img/snack-6.png" alt="snack" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
                         <div class="pt-5">
@@ -341,10 +396,10 @@
                     </li>
                 </ul> 
 
-                <!-- burgers -->
+                <!-- beverages -->
                 <ul class="flex flex-col gap-5 md:flex-row md:flex-wrap lg:flex-nowrap lg:gap-10 mb-5">
                     <li class="item-wrap beverage">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/beverage-1.png" alt="beverage" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -358,7 +413,7 @@
                         </div>
                     </li>
                     <li class="item-wrap beverage">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/beverage-2.png" alt="beverage" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -372,7 +427,7 @@
                         </div>
                     </li>
                     <li class="item-wrap beverage">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/beverage-3.png" alt="beverage" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -385,8 +440,10 @@
                             <p class="text-secondaryColor">$42.00</p>
                         </div>
                     </li>
+                </ul>     
+                <ul class="flex flex-col gap-5 md:flex-row md:flex-wrap lg:flex-nowrap lg:gap-10 mb-5">
                     <li class="item-wrap beverage">
-                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
                             <img src="./img/beverage-4.png" alt="beverage" class="w-40 hover:scale-110 ease-linear duration-200">
                         </div>
 
@@ -399,7 +456,21 @@
                             <p class="text-secondaryColor">$42.00</p>
                         </div>
                     </li>
-                </ul>                              
+                    <li class="item-wrap beverage">
+                        <div class="h-52 flex items-center justify-center bg-primaryColorLight dark:bg-darkColorLight  hover:bg-secondaryColor ease-linear duration-200 rounded-3xl dark:hover:bg-secondaryColor">
+                            <img src="./img/beverage-5.png" alt="beverage" class="w-40 hover:scale-110 ease-linear duration-200">
+                        </div>
+
+                        <div class="pt-5">
+                            <div class="mb-2">
+                                <h4 class="card-title">sweet smoothie</h4>
+                                <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            </div>
+
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                </ul>                         
             </div>
         </div>
     </section>
@@ -440,7 +511,7 @@
                             </p>
                             <div class="flex justify-between mt-5">
                                 <div class="flex gap-2 items-center">
-                                    <img src="./img/review-5.jpg" alt="review" class="rounded-full w-16 h-16">
+                                    <img src="./img/review-1.jpg" alt="review" class="rounded-full w-16 h-16">
                                     <div>
                                         <h3 class="card-title">john doe</h3>
                                         <p class="paragraph">designation</p>
@@ -459,7 +530,7 @@
                             </p>
                             <div class="flex justify-between mt-5">
                                 <div class="flex gap-2 items-center">
-                                    <img src="./img/review-5.jpg" alt="review" class="rounded-full w-16 h-16">
+                                    <img src="./img/review-2.jpg" alt="review" class="rounded-full w-16 h-16">
                                     <div>
                                         <h3 class="card-title">john doe</h3>
                                         <p class="paragraph">designation</p>
@@ -478,7 +549,7 @@
                             </p>
                             <div class="flex justify-between mt-5">
                                 <div class="flex gap-2 items-center">
-                                    <img src="./img/review-5.jpg" alt="review" class="rounded-full w-16 h-16">
+                                    <img src="./img/review-3.jpg" alt="review" class="rounded-full w-16 h-16">
                                     <div>
                                         <h3 class="card-title">john doe</h3>
                                         <p class="paragraph">designation</p>
@@ -497,26 +568,7 @@
                             </p>
                             <div class="flex justify-between mt-5">
                                 <div class="flex gap-2 items-center">
-                                    <img src="./img/review-5.jpg" alt="review" class="rounded-full w-16 h-16">
-                                    <div>
-                                        <h3 class="card-title">john doe</h3>
-                                        <p class="paragraph">designation</p>
-                                    </div>
-                                </div>
-                                <div class="flex  items-center">
-                                    <i class="fa-solid fa-quote-right text-secondaryColor text-4xl"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="flex flex-col rounded-1xl bg-primaryColor dark:bg-darkColor  p-6">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cumque aliquam natus non, voluptatum ducimus voluptates ea culpa consequuntur velit.
-                            </p>
-                            <div class="flex justify-between mt-5">
-                                <div class="flex gap-2 items-center">
-                                    <img src="./img/review-5.jpg" alt="review" class="rounded-full w-16 h-16">
+                                    <img src="./img/review-4.jpg" alt="review" class="rounded-full w-16 h-16">
                                     <div>
                                         <h3 class="card-title">john doe</h3>
                                         <p class="paragraph">designation</p>
@@ -555,8 +607,8 @@
             <div class="container">
                 <div class="flex flex-col gap-5 md:flex-row py-5">
                     <div class="space-y-3 flex-1">
-                        <a href="#" class="text-3xl uppercase font-oswald">
-                            Bur<span class="text-secondaryColor ">ger</span>
+                        <a href="#" class="text-2xl uppercase font-oswald">
+                            <img src="/img/logo.png" alt="logo" class="w-20">
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, quasi?</p>
                     </div>
@@ -575,7 +627,7 @@
 
                         <div class="space-y-4">
                             <h3 class="text-2xl uppercase font-oswald">email</h3>
-                            <p><i class="fa-solid fa-envelope text-secondaryColor mr-2"></i>+ 0111 374 3883</p>
+                            <p><i class="fa-solid fa-envelope text-secondaryColor mr-2"></i>majedaziz71@gmail.com</p>
                         </div>
                     </div>
 
